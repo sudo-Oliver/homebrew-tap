@@ -12,7 +12,7 @@ cask "editor" do
   desc "Local LaTeX and Typst editor with a live PDF preview"
   homepage "https://github.com/sudo-Oliver/Editor"
 
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
 
   app "Editor.app"
   binary "#{appdir}/Editor.app/Contents/Resources/bin/editor"
